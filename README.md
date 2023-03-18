@@ -1,5 +1,4 @@
-# presalewebsite
-presale &amp; airdrop website bsc
+Presale and Airdrop Website for Mazimus Universe
 
 
 Contact me on Telegram @greyhaye_s
