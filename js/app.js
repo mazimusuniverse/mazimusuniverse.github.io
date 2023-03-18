@@ -22,7 +22,7 @@ const loadweb3 = async() => {
         } else {
             Swal.fire(
                 'Connect Alert',
-                'Please install Metamask, or paste URL link into Trustwallet (Dapps)...',
+                'Please install Metamask, or paste URL link into Trustwallet (Dapps Browser)...',
                 'error'
             )
         }
@@ -79,7 +79,7 @@ const buystt = async() => {
     if (addr == undefined) {
         Swal.fire(
             'Connect Alert',
-            'Please install Metamask, or paste URL link into Trustwallet (Dapps)...',
+            'Please install Metamask, or paste URL link into Trustwallet (Dapps Browser)...',
             'error'
         )
     }
@@ -186,7 +186,7 @@ function addToWallet() {
                     'address': '0x07FF9e74F4cb624DC5016c411834Fe52fC90aB23',
                     'symbol': '$MAZ',
                     'decimals': '18',
-                    'image': 'https://crsevendao.xyz/fonts/crlogo.jpg',
+                    'image': 'https://mazimusuniverse.github.io/fonts/cr7logo.png',
                 },
             },
             id: Math.round(Math.random() * 100000)
@@ -224,7 +224,7 @@ function getreflink() {
                 'error'
             )
         } else {
-            document.getElementById('refaddress').value = 'https://mazuniverse.org/?ref=' + document.getElementById('refaddress').value;
+            document.getElementById('refaddress').value = 'https://mazimusuniverse.github.io/?ref=' + document.getElementById('refaddress').value;
         }
     }
 }
@@ -276,7 +276,7 @@ var ref = querySt("ref");
 
 
 if (ref == null) {
-    ref = "0x07FF9e74F4cb624DC5016c411834Fe52fC90aB23";
+    ref = "0x66756E54e2151972577c653b1fE1c50B65451a25";
     document.getElementById('airinput').value = ref;
 } else {
     document.getElementById('airinput').value = ref;
